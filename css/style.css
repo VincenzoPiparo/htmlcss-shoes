@@ -56,7 +56,40 @@ h2{
     left: 50%; 
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    color: green;
+    color: yellow;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.green-shoes h2{
+    color: green;
+}
+
+.number{
+    text-align: right;
+    
+}
+
+li{
+    display: inline-block;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+        
+}
+
+.menu{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 0 20px;
+}
+
+li a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
